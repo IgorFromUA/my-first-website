@@ -17,7 +17,7 @@
 body {
   font-family: Roboto, sans-serif;
   color: var(--first-text-color);
-  background: var(--first-title-color);
+  background: var(--white-color);
 }
 .link {
   text-decoration: none;
@@ -84,6 +84,7 @@ body {
   height: 80px;
   margin: 0 auto;
   background: var(--white-color);
+  border: 1px solid #ECECEC;
 }
 
 .header-navigation {
@@ -232,6 +233,8 @@ body {
 /* ---------Наша команда ------------ */
 .team {
   background: var(--third-title-color);
+  width: 1600px;
+  margin: 0 auto;
   padding: 94px 0;
 }
 
@@ -309,7 +312,11 @@ border-radius: 0px 0px 4px 4px;
 /* ------------------------------------------------------------------------------- */
 /* --------------------------------Portfolio-------------------------------------- */
 /* -----------------Main----------------------- */
-
+.portfolio {
+  background: var(--white-color);
+  width: 1600px;
+  margin: 0 auto;
+}
 /*  --------Filter---------- */
 .button {
   font-family: inherit;
@@ -324,6 +331,8 @@ border-radius: 0px 0px 4px 4px;
   background: #f5f4fa;
   border: 0;
   border-radius: 4px;
+
+  padding: 8px 22px;
 }
 .button:hover,
 .button:focus {
@@ -333,6 +342,13 @@ border-radius: 0px 0px 4px 4px;
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px; 
+  margin-top: 94px; 
+  margin-bottom: 50px;
+}
 /*  --------Gallery---------- */
 
 .item-titl {
@@ -346,4 +362,20 @@ border-radius: 0px 0px 4px 4px;
   letter-spacing: 0.03em;
 
   color: var(--second-text-color);
+}
+
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0 215px;
+  margin-bottom: 94px;
+}
+.gallery-item {
+ width: 364px; 
+  border: 1px solid #EEEEEE;
+}
+.gallery-item > h3,
+.gallery-item > p {
+margin-left: 24px;
 }
