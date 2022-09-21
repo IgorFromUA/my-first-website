@@ -372,7 +372,8 @@ border-radius: 0px 0px 4px 4px;
   margin-bottom: 94px;
 }
 .gallery-item {
- width: 364px; 
+ width: 368px; 
+ overflow: hidden;
   border: 1px solid #EEEEEE;
 }
 .gallery-item > h3,
